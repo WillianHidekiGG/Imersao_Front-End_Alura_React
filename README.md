@@ -79,4 +79,4 @@ Finalização da aula 5:
 <img src="./src/imagens/aula5base.png" alt="Imagem da Aula 5">
 
 Gif mostrando as funcionalidades da tela:
-![me](src/imagens) 
+<img src="./src/imagens/aulaDesafio5.gif" alt="Imagem da Aula 5"> 
