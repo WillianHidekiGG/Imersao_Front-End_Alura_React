@@ -1,0 +1,58 @@
+.disclaimer-premium{
+    position: fixed; /* deixa o footer fixo em baixo */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right,#e88822, #782424);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer-premium .text{
+    flex-shrink: 0;/* não tem ajuste para quando a janela encolher */
+    color: #ffffff;
+}
+
+.disclaimer-premium .disclaimer-premium_subtitle{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+    box-shadow:
+    0 0 0px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    inset 0 0 0px 1px #eeaaaa,
+    inset 0 0 10px 2px #E01B1B;
+    transition: 100ms;
+}
+
+.disclaimer-premium button:hover{
+    background: rgb(255, 67, 67);
+    box-shadow:
+    0 0 5px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    0 0 5px rgb(230, 50, 50),
+    0 0 25px rgb(230, 50, 50),
+    0 0 50px rgb(230, 50, 50),
+    inset 0 0 0px 1px #F00200,
+    inset 0 0 30px 2px #E01B1B;
+    text-shadow: 0 0 10px #E01B1B;
+    transform: translateY(-5px);
+}
+
+.button:active {
+    position: relative;
+    top: 8px;
+}

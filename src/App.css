@@ -1,0 +1,24 @@
+body{
+  width:100vw;
+  height: 100vh;
+  background: url(../src/assets/backgrond/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center; /* Centraliza a imagem */
+  font-family: var(--font-dm-sans);
+}
+
+:root{/* cria variavies para facilitar a manutenção onde troca tudo de uma vez */
+  /* Fontes */
+  --font-dm-sans:"DM Sans", sans-serif;/* uma variavel para mudar a fonte de uma vez  */
+
+  /* COLORS */
+  --bg-icon: #131313;
+  --bg-arrow-color: rgba(0, 0, 0, 0.7)
+}
+
+@media screen and (max-width: 1015px) {/* trabalha com o tamanho da tela definido */
+  off_list-iten{/* carrega o display grid para mostrar quantas colunas na tela */
+      grid-template-columns: 1fr 1fr; /* define quantas colunas trabalha */
+  }
+}

@@ -1,0 +1,294 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navigation{
+    background:rgba(139,63,63, 0.7);
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    border: 5px outset #362B2B;
+}
+
+.sidebar_navigation .logo {
+    background-color: transparent;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 10px;
+}
+
+.sidebar_navigation .logo img{
+    width: 80px;
+}
+
+.sidebar nav ul{
+    margin-top: 15px;
+    padding: 0 20px 10px 10px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+
+}
+
+.sidebar nav ul li{
+    color:#000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+.sidebar nav ul li{
+    margin-right:10px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    list-style-type: none
+}
+
+.sidebar nav .buttonLogo{
+    background: transparent;
+    border: none;
+}
+
+.sidebar nav ul li .house{
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0.8em 1.8em;
+    margin-top: 12px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 50em;
+    box-shadow:
+    0 0 0px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    inset 0 0 0px 1px #eeaaaa,
+    inset 0 0 10px 2px #E01B1B;
+    transition: 100ms;
+}
+
+.sidebar nav ul li .search{
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 0.8em 1.8em;
+    margin-top: 12px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 50em;
+    box-shadow:
+    0 0 0px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    inset 0 0 0px 1px #eeaaaa,
+    inset 0 0 10px 2px #E01B1B;
+    transition: 100ms;
+}
+
+.iconHouse, .searchIcon, .bookIcon, .cookieIcon{
+    margin-right: 5px; 
+}
+
+.content_biblioteca{
+    position: relative;
+    padding: 0 0 0 12px;
+    width: 300px;
+}
+
+.biblioteca{
+    display: flex; /* organiza os itens de uma vez como nos queremos*/
+    background-color: rgba(139,63,63, 0.7);
+    border-radius: 8px;
+    justify-content: space-between;/*deixa os itens um do lado do outro e deixa um espaço entre eles */
+    flex-direction: column;/* os itens ficam na posição de coluna */
+    padding: 16px 0 16px 0;
+    margin-top: 10px;
+    color: #ffffff ;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 5px outset #362B2B;
+}
+
+.biblioteca .content_biblioteca {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biblioteca .biblioteca_botao{
+    display: flex;
+    margin-right:10px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.biblioteca .biblioteca_botao{
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+
+.biblioteca .content_biblioteca .plusIcon{
+    margin: 20px 25px 0 0;
+}
+
+
+.section-playlist{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgba(139,63,63, 0.7);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-playlist .section-playlist_content{
+    display: flex;
+    flex-direction: column;
+}
+.section-playlist_content .text{
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+
+.section-playlist_content .title{
+    font-weight: 700;
+}
+
+.section-playlist_content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist_content .section-playlist_button{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    padding: 0.8em 1.8em;
+    margin-top: 12px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 50em;
+    box-shadow:
+    0 0 0px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    inset 0 0 0px 1px #eeaaaa,
+    inset 0 0 10px 2px #E01B1B;
+    transition: 100ms;
+}
+
+
+.section-playlist_content .section-playlist_button:hover{
+    background: rgb(255, 67, 67);
+    box-shadow:
+    0 0 5px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    0 0 5px rgb(230, 50, 50),
+    0 0 25px rgb(230, 50, 50),
+    0 0 50px rgb(230, 50, 50),
+    inset 0 0 0px 1px #F00200,
+    inset 0 0 30px 2px #E01B1B;
+    text-shadow: 0 0 10px #E01B1B;
+    transform: translateY(-5px);
+}
+
+.section-playlist_button:active {
+    position: relative;
+    top: 8px;
+}
+
+
+.sidebar .cookies{
+    margin: 25px 20px;
+}
+
+.sidebar .cookies {
+    padding: 8px;
+    color:#ffffff;
+    background-color: transparent;
+    border: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow:
+    0 0 0px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    inset 0 0 0px 1px #eeaaaa,
+    inset 0 0 10px 2px #E01B1B;
+}
+
+.sidebar .cookies:hover{
+    text-decoration: underline;
+}
+
+.languages .languages_button{
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color:#fff;
+    font-weight: bold;
+    cursor: pointer;/* deixa o cursor em outro estado, como estado de clicar */
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow:
+    0 0 0px 1px #eeaaaa,
+    0 0 10px 2px #E01B1B,
+    inset 0 0 0px 1px #eeaaaa,
+    inset 0 0 10px 2px #E01B1B;
+}
