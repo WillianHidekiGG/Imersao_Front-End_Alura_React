@@ -13,10 +13,10 @@ Durante a Imersão Front-end da Alura, o projeto tem como base em HTML e CSS e u
 - Desafio: construir a aba “Sua biblioteca”.
 
 Fizalização da aula 1:
-<img src="./imagens/aula1base.png" alt="Imagem da Aula 1">
+<img src="./src/imagens/aula1base.png" alt="Imagem da Aula 1">
 
 Finalização do desafio da aula 1:
-<img src="./imagens/aula1.png" alt="Imagem da Aula 1">
+<img src="./src/imagens/aula1.png" alt="Imagem da Aula 1">
 
 ## AULA 2
 📖Conteúdo:
@@ -26,11 +26,11 @@ Finalização do desafio da aula 1:
 - Desafio: Fazer a tag <footer> (brinque com o botão, faça o gradiente, etc).
 
 Fizalização da aula 2:
-<img src="./imagens/aula2base.jpg" alt="Imagem da Aula 2">
+<img src="./src/imagens/aula2base.jpg" alt="Imagem da Aula 2">
 
 
 Finalização do desafio da aula 2:
-<img src="./imagens/aula2.jpg" alt="Captura de tela da aula 2">
+<img src="./src/imagens/aula2.jpg" alt="Captura de tela da aula 2">
 
 ## AULA 3
 📖Conteúdo:
@@ -42,10 +42,10 @@ Finalização do desafio da aula 2:
 - Desafio: Fazer os cards de “Boa tarde” e “Navegar por todas as seções”.
 
 Finalização da aula 3:
-<img src="./imagens/aula3base.png" alt="Imagem da Aula 3">
+<img src="./src/imagens/aula3base.png" alt="Imagem da Aula 3">
 
 Finalização do desafio da aula 3:
-<img src="./imagens/aula3.png" alt="Captura de tela da aula 3>
+<img src="./src/imagens/aula3.png" alt="Captura de tela da aula 3>
 
 ## Aula 4
 📖Conteúdo:
@@ -59,10 +59,10 @@ Finalização do desafio da aula 3:
 - Desafios: fazer mais cards se baseando na página do Spotify e criar um arquivo API JSON diferente.
 
 Fizalização da aula 4:
-<img src="./imagens/aulabase4.png" alt="Imagem da Aula 4">
+<img src="./src/imagens/aulabase4.png" alt="Imagem da Aula 4">
 
 Fizalização do desafio da aula 4:
-<img src="./imagens/aula4.png" alt="Captura de tela da Aula 4>
+<img src="./src/imagens/aula4.png" alt="Captura de tela da Aula 4>
 
 ## Aula 5
 📖Conteúdo:
@@ -76,7 +76,7 @@ Fizalização do desafio da aula 4:
 - Desafios: fazer mais cards se baseando na página do Spotify e criar um arquivo API JSON diferente.
 
 Finalização da aula 5:
-<img src="./imagens/aula5base.png" alt="Imagem da Aula 5">
+<img src="./src/imagens/aula5base.png" alt="Imagem da Aula 5">
 
 Gif mostrando as funcionalidades da tela:
-![me](imagens/aulaDesafio5.gif) 
+![me](src/imagens) 
